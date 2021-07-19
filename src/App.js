@@ -1,6 +1,6 @@
 import Header from './Components/Header'
 
-import React, { useState, Component } from 'react'
+import React, { useState } from 'react'
 
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
         }
       }}>
         <input type='text' placeholder="Enter an album ID" value={searchKey} onChange={(e) => onSearchKeyChange(e)} /><br></br>
-        <button type="button" type='submit' className="btn">Search</button>
+        <button type='submit' className="btn">Search</button>
       </form>
 
         <div className="grid">
