@@ -97,6 +97,7 @@ body{
   justify-items: stretch;
   align-items: stretch;
   padding: 1px 30px;
+  animation: slide_up 2.2s ease;
 }
 
 
@@ -114,13 +115,30 @@ body{
   font-size: 15px;
   border-bottom: 4px solid #6c757d;
   border-radius: 6px;
+  animation: slide_up 2.2s ease;
 }
 
 .imgSize{
   height: 9rem;
   width: 17rem;
 }
+.imgSize:hover{
+  height: 13rem;
+  width: 19rem;
+}
 
 .info-item{
     margin: 10px;
+    
 }
+@keyframes slide_up{
+  0%{
+    transform: translateY(250px);
+  
+  }
+  100%{
+    transform: translateY(0px);
+  }
+  
+  }
+  
