@@ -19,7 +19,7 @@ function App() {
   };
 
   return (
-    <div className='container'>
+    <div id='container'>
       <h1>Challenge 2</h1>
       <Header />
 
